@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcafde1a3e0faa4d81ae1046fa3f62b, type: 3}
+  m_Name: Bullet Blow Up Ability
+  m_EditorClassIdentifier: 
+  name: Bullet BlowUp
+  cooldownTime: 2.5
+  activeTime: 0
+  bulletPrefab: {fileID: 9167827171144521299, guid: 97290d987bd31c9438d191dfec3b871d, type: 3}
+  numberOfBullets: 25
+  bulletsSpeed: 25
+  explosionRadius: 5
+  forceFieldStrength: 75
