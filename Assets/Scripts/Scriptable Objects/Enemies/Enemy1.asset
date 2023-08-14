@@ -18,5 +18,4 @@ MonoBehaviour:
   attackType: 0
   attackRange: 10
   bulletData: {fileID: 11400000, guid: 02be4e24c11ae5147beefa50a01f8eed, type: 2}
-  attackCooldown: 2.5
   stopDistance: 2

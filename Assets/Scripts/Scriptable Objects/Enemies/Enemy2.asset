@@ -17,5 +17,7 @@ MonoBehaviour:
   rotationSpeed: 25
   attackType: 1
   attackRange: 10
+  weaponData: {fileID: 11400000, guid: 9473bb1cea4a2f24799587f85cc18e75, type: 2}
+  bulletData: {fileID: 11400000, guid: 02be4e24c11ae5147beefa50a01f8eed, type: 2}
   attackCooldown: 5
   stopDistance: 2

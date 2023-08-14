@@ -11,6 +11,7 @@ public class WeaponData : ScriptableObject
     public float fireRate;
     public float accuracy;
     public BulletData bulletData;
+    public GameObject bulletPrefab;
     public GameObject weaponPrefab;
     // Add more stats as needed
 

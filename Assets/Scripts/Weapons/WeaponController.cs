@@ -14,6 +14,11 @@ public class WeaponController : MonoBehaviour
     private bool canShoot = true; // Flag to control shooting cadence
     private float timeSinceLastShot = 0f; // Track time since the last shot
 
+    private void Start()
+    {
+        bulletPrefab = weaponData.bulletPrefab;
+    }
+
     private void Update()
     {
         // Increment time since the last shot

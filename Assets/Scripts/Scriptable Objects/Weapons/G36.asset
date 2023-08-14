@@ -18,4 +18,5 @@ MonoBehaviour:
   fireRate: 12.5
   accuracy: 2.5
   bulletData: {fileID: 11400000, guid: 662a488193af4134b992075308326b3d, type: 2}
+  bulletPrefab: {fileID: 9167827171144521299, guid: 97290d987bd31c9438d191dfec3b871d, type: 3}
   weaponPrefab: {fileID: 3179115099437809178, guid: 5396e2a6517de444a9969a94029e8019, type: 3}

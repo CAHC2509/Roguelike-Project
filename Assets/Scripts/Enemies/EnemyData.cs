@@ -11,8 +11,7 @@ public class EnemyData : ScriptableObject
     public AttackType attackType;
     public float attackRange;
     public BulletData bulletData;
-    public float attackCooldown;
-    public float stopDistance = 1.25f;
+    public float stopDistance = 2f;
     // More stats
 
     public enum AttackType

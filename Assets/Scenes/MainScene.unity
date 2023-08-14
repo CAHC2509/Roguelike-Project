@@ -3248,16 +3248,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 455059445040008034, guid: a146c21ecdbacb54b99ead749befe5a1, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: weaponData
+      value: 
+      objectReference: {fileID: 11400000, guid: 608ce7f85a0256d4fa33f31f456f2c05, type: 2}
     - target: {fileID: 7312073631715719146, guid: a146c21ecdbacb54b99ead749befe5a1, type: 3}
       propertyPath: m_Name
       value: Enemy1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7312073631715719146, guid: a146c21ecdbacb54b99ead749befe5a1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7312073631715719152, guid: a146c21ecdbacb54b99ead749befe5a1, type: 3}
       propertyPath: m_RootOrder
@@ -3302,10 +3298,6 @@ PrefabInstance:
     - target: {fileID: 7312073631715719152, guid: a146c21ecdbacb54b99ead749befe5a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7312073631715719153, guid: a146c21ecdbacb54b99ead749befe5a1, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a146c21ecdbacb54b99ead749befe5a1, type: 3}
@@ -4005,7 +3997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1270498811327540299, guid: 424f2545a98cea849bb5ed5cdf92a590, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1270498811327540336, guid: 424f2545a98cea849bb5ed5cdf92a590, type: 3}
       propertyPath: m_Enabled
@@ -4118,7 +4110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4499508783117821527, guid: 093b706a8dee0914db2b1397514b39f3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 093b706a8dee0914db2b1397514b39f3, type: 3}
@@ -4133,6 +4125,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 455059445040008034, guid: a146c21ecdbacb54b99ead749befe5a1, type: 3}
+      propertyPath: weaponData
+      value: 
+      objectReference: {fileID: 11400000, guid: 9473bb1cea4a2f24799587f85cc18e75, type: 2}
     - target: {fileID: 7312073631715719146, guid: a146c21ecdbacb54b99ead749befe5a1, type: 3}
       propertyPath: m_Name
       value: Enemy1
