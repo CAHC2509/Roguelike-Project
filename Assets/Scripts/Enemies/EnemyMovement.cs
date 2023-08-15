@@ -10,7 +10,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField]
     private EnemyData enemyData;
     [SerializeField]
-    private float searchWeaponChance = 0.25f;
+    private float searchWeaponChance = 0.5f;
 
     private Transform player;
     private NavMeshAgent enemyAgent;
