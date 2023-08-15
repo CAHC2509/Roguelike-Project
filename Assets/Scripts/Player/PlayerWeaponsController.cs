@@ -98,6 +98,7 @@ public class PlayerWeaponsController : MonoBehaviour
         // Instantiate and equip the new weapon as a child of the weaponParentObject
         GameObject weaponPrefab = weaponsList[index];
         GameObject weaponObject = Instantiate(weaponPrefab, weaponParentObject);
+        weaponObject.tag = "Untagged";
         playerAimController.weapon = weaponObject.transform;
         currentWeaponController = weaponObject.GetComponent<WeaponController>();
 
@@ -117,8 +118,10 @@ public class PlayerWeaponsController : MonoBehaviour
             // Destroy the weapon on the ground and spawn the current weapon
             Destroy(weaponOnGround);
 
-            // Spawn the current weapon on the ground
-            Instantiate(weaponsList[currentWeaponIndex], transform.position, Quaternion.identity);
+            // Spawn the current weapon on the ground after assign the correct tag
+            GameObject weaponToSpawn = weaponsList[currentWeaponIndex];
+            weaponToSpawn.tag = "Weapon";
+            Instantiate(weaponToSpawn, transform.position, Quaternion.identity);
 
             // Replace the current weapon in the inventory for the ground weapon
             weaponsList[currentWeaponIndex] = weaponPrefab;

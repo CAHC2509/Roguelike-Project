@@ -204,7 +204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6cd6678df9bc234583c8481c24f382f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAttack: {fileID: 455059445040008034}
   enemyData: {fileID: 11400000, guid: de7b9f75d00e9e04cb5d40602d619537, type: 2}
+  searchWeaponChance: 0.25
 --- !u!114 &455059445040008034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,5 +220,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: de7b9f75d00e9e04cb5d40602d619537, type: 2}
+  weaponData: {fileID: 11400000, guid: 9473bb1cea4a2f24799587f85cc18e75, type: 2}
   weaponHolder: {fileID: 4609341375278033638}
-  weaponController: {fileID: 0}

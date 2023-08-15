@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Enemy1
   m_EditorClassIdentifier: 
   speed: 5
-  maxHealth: 10
+  maxHealth: 15
   rotationSpeed: 25
   attackType: 0
   attackRange: 10
