@@ -61,6 +61,7 @@ public class EnemyAttack : MonoBehaviour
         // Instantiate the weapon and set it as a child of this object
         instantiatedWeapon = Instantiate(newWeapon.GetComponent<WeaponController>().weaponData.weaponPrefab, weaponHolder);
         weaponController = instantiatedWeapon.GetComponent<WeaponController>(); // Get the WeaponController component
+        instantiatedWeapon.tag = "Untagged";
     }
 
     public GameObject FindNearestWeapon()

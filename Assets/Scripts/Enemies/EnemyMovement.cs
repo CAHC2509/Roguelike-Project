@@ -27,9 +27,14 @@ public class EnemyMovement : MonoBehaviour
 
         // Define if the enemy will search a weapon or the player
         if (Random.value < searchWeaponChance)
-            target = enemyAttack.FindNearestWeapon().transform;
+        {
+            Transform nearestWeapon = enemyAttack.FindNearestWeapon()?.transform;
+            target = nearestWeapon != null ? nearestWeapon : player;
+        }
         else
+        {
             target = player;
+        }
 
         // Set the agent's destination to the chosen target's position
         enemyAgent.SetDestination(target.position);
